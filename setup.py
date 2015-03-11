@@ -10,7 +10,7 @@ with open('readme.md') as f:
     readme = f.read()
 
 github_url = 'https://github.com/endaga/sms_utilities'
-version = '0.0.2'
+version = '0.0.3'
 download_url = '%s/%s' % (github_url, version)
 
 setup(

@@ -43,6 +43,7 @@ MIT
 
 
 ### releases
+* 0.0.3 - fixes imports
 * 0.0.2 - fixes MANIFEST.in filename
 * 0.0.1 - initial pypi release
 
