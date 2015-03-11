@@ -1,12 +1,6 @@
 SMS encoding and decoding utilities
 
 
-### reference
-* PDU mode [background](http://www.gsm-modem.de/sms-pdu-mode.html)
-* wikipedia on [GSM 03.40](http://en.wikipedia.org/wiki/GSM_03.40)
-* PDF on [SMS in PDU mode](http://read.pudn.com/downloads122/doc/520173/SMS_PDU-mode.PDF)
-
-
 
 ### installation
 
@@ -58,11 +52,19 @@ MIT
 
 
 
+### reference
+* PDU mode [background](http://www.gsm-modem.de/sms-pdu-mode.html)
+* Wikipedia on [GSM 03.40](http://en.wikipedia.org/wiki/GSM_03.40)
+* a PDF on [SMS in PDU mode](http://read.pudn.com/downloads122/doc/520173/SMS_PDU-mode.PDF)
+* the [python-messaging package](https://github.com/pmarti/python-messaging)
+
+
+
 ### release process
 bump the version in `setup.py`, add a note here in the readme, then run:
 
 ```shell
-$ git tag 0.0.1 -m 'sms-utilities v0.0.1'
+$ git tag 0.0.1 -m 'sms_utilities v0.0.1'
 $ git push origin master --tags
 $ python setup.py sdist upload -r pypi
 ```
