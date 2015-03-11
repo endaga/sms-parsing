@@ -9,14 +9,17 @@ with open('requirements.txt') as f:
 with open('readme.md') as f:
     readme = f.read()
 
+github_url = 'https://github.com/endaga/sms_utilities'
+version = '0.0.2'
+download_url = '%s/%s' % (github_url, version)
+
 setup(
     name='sms_utilities',
-    version='0.0.1',
+    version=version,
     description='SMS encoding and decoding utilities',
     long_description=readme,
-    url='http://github.com/endaga/sms_utilities',
-    download_url='https://github.com/endaga/sms_utilities/tarball/'
-                 '0.0.1',
+    url=github_url,
+    download_url=download_url,
     author='Matt Ball',
     author_email='matt@endaga.com',
     license='MIT',
